@@ -47,7 +47,7 @@ answer_display = CTkEntry(master=window, width=150, height=75, font=("Comic Sans
 answer_display.grid(row=1, column=3, columnspan=2)
 answer_display.focus()
 
-# Buttons
+# Button Widgets
 zero_button = CTkButton(master=window, text="0", width=75, height=75, font=("Comic Sans", 30), command=lambda: display_item(0))
 zero_button.grid(row=5, column=0)
 
