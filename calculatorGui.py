@@ -38,7 +38,7 @@ window.title("CALCULATOR")
 window.minsize(width=375, height=450)
 window.maxsize(width=375, height=450)
 
-# Entry
+# Entry Widgets
 value_display = CTkEntry(master=window, width=375, height=75, font=("Comic Sans", 30))
 value_display.grid(row=0, column=0, columnspan=5)
 value_display.focus()
